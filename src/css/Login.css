@@ -1,0 +1,38 @@
+.login-wraper {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: darkgray;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.wraper {
+  border: 1px solid black;
+  width: 440px;
+  /* font-size: 22px; */
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px;
+}
+.input-wrapper {
+  display: inline-block;
+  padding: 9px;
+}
+.input-wrapper label {
+  display: inline-block;
+  width: 101px;
+}
+.login-btn input {
+  border: 1px solid #93cae0;
+  padding: 10px 20px;
+  background-color: #93cae0;
+  margin: 10px 167px;
+}
+.error-text {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.error-input {
+  border: 1px solid red;
+}

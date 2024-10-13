@@ -1,0 +1,47 @@
+.actual-about-us {
+  background-color: darkgray;
+  padding: 12px 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.card {
+  position: relative;
+  top: 50px;
+  /* left: 17px; */
+  max-width: 400px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+}
+.userinfo {
+  margin-top: 200px;
+}
+.employee {
+  margin-bottom: 50px;
+  padding-top: 5px;
+  text-align: center;
+}
+.title {
+  color: purple;
+  font-size: 26px;
+}
+img.user-image {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 98px;
+}
+.contactbtn {
+  border: none;
+  display: inline-block;
+  font-size: 22px;
+  text-align: center;
+  width: 50%;
+  color: white;
+  padding: 10px;
+  background-color: #4cd7c1;
+  border-radius: 41px;
+  margin-bottom: 40px;
+}
