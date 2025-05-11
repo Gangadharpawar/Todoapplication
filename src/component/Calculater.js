@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../css/Calculater.css";
-function Calulater() {
+function Calculater() {
   const [result, SetResult] = useState(" ");
   const Handleclick = (e) => {
     SetResult(result.concat(e.target.name));
@@ -93,4 +93,4 @@ function Calulater() {
     </>
   );
 }
-export default Calulater;
+export default Calculater;
