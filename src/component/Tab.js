@@ -5,7 +5,7 @@ import Counter from "./Counter";
 import TodoApp from "./TodoApp";
 import Info from "./Info";
 import Timer from "./Timer";
-import Calulater from "./Calculater";
+import Calculater from "./Calculater";
 import NotesApp from "./NotesApp";
 export default function Tab(timeRemaining) {
   // const content = ["Tab 1 content", "Tab 2 content", "Tab 3 content"];
@@ -41,7 +41,7 @@ export default function Tab(timeRemaining) {
             onClick={() => {
               setTabindex(3);
             }}
-            label="Calulater"
+            label="Calculater"
           ></Button>
           <Button
             className={tabIndex === 4 ? "active" : " "}
@@ -67,7 +67,7 @@ export default function Tab(timeRemaining) {
         ) : tabIndex === 2 ? (
           <Counter></Counter>
         ) : tabIndex === 3 ? (
-          <Calulater></Calulater>
+          <Calculater></Calculater>
         ) : tabIndex === 4 ? (
           <Timer></Timer>
         ) : (
